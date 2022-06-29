@@ -17,8 +17,6 @@ export const MenuLayout = ({children, ...routeProps}) => {
         LabelingSettings,
         InstructionsSettings,
         MachineLearningSettings,
-        StorageSettings,
-        WebhookPage,
         DangerZone,
       ]}
       path={routeProps.match.url}
@@ -37,8 +35,6 @@ export const SettingsPage = {
     InstructionsSettings,
     LabelingSettings,
     MachineLearningSettings,
-    StorageSettings,
-    WebhookPage,
     DangerZone,
   },
 };
