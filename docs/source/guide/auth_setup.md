@@ -72,7 +72,7 @@ AUTH_LDAP_ENABLED=1
 # Use ldaps to secure the LDAP connection
 AUTH_LDAP_SERVER_URI=ldaps://ldap.example.com
 # LDAP admin credentials    
-AUTH_LDAP_BIND_DN=uid=user,ou=sysadmins,o=123abc,dc=zexample,dc=com
+AUTH_LDAP_BIND_DN=uid=user,ou=c,o=123abc,dc=zexample,dc=com
 AUTH_LDAP_BIND_PASSWORD=password123
 
 # Allow users to use usernames (not only emails) to log into Label Studio
