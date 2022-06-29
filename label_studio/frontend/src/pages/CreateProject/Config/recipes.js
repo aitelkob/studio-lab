@@ -10,8 +10,8 @@ export const recipes = [
     config: `<View>
   <Image name="image" value="$image"/>
   <RectangleLabels name="label" toName="image">
-    <Label value="Airplane" background="green"/>
-    <Label value="Car" background="blue"/>
+    <Label value="Damage" background="green"/>
+    
   </RectangleLabels>
 </View>`
   },
@@ -27,8 +27,8 @@ export const recipes = [
   <PolygonLabels name="label" toName="image"
                  strokeWidth="3" pointSize="small"
                  opacity="0.9">
-    <Label value="Airplane" background="red"/>
-    <Label value="Car" background="blue"/>
+    <Label value="Damage" background="red"/>
+    
   </PolygonLabels>
 </View>
 `,
