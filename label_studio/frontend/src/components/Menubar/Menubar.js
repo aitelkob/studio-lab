@@ -202,7 +202,7 @@ export const Menubar = ({
 
                 <Menu.Spacer/>
 
-                <VersionNotifier showNewVersion/>
+                {/* <VersionNotifier showNewVersion/>
 
                 <Menu.Item
                   label="API"
@@ -221,15 +221,15 @@ export const Menubar = ({
                   href="https://github.com/heartexlabs/label-studio"
                   icon={<LsGitHub/>}
                   target="_blank"
-                />
-                <Menu.Item
+                /> */}
+                {/* <Menu.Item
                   label="Slack Community"
                   href="https://slack.labelstudio.heartex.com/?source=product-menu"
                   icon={<LsSlack/>}
                   target="_blank"
-                />
+                /> */}
 
-                <VersionNotifier showCurrentVersion/>
+                {/* <VersionNotifier showCurrentVersion/> */}
 
                 <Menu.Divider/>
 
