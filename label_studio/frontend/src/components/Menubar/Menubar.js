@@ -222,12 +222,12 @@ export const Menubar = ({
                   icon={<LsGitHub/>}
                   target="_blank"
                 /> */}
-                {/* <Menu.Item
+                <Menu.Item
                   label="Slack Community"
-                  href="https://slack.labelstudio.heartex.com/?source=product-menu"
+                  href="https://sygmai.slack.com/?source=product-menu"
                   icon={<LsSlack/>}
                   target="_blank"
-                /> */}
+                />
 
                 {/* <VersionNotifier showCurrentVersion/> */}
 
