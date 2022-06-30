@@ -53,11 +53,11 @@ function getFiles(files) {
 
 const Footer = () => {
   return (
-    <Modal.Footer>
-      <IconInfo className={importClass.elem("info-icon")} width="20" height="20" />
-      See the&nbsp;documentation to <a target="_blank" href="/guide/predictions.html">import preannotated data</a>{" "}
-      or&nbsp;to <a target="_blank" href="/guide/storage.html">sync data from a&nbsp;database or&nbsp;cloud storage</a>.
-    </Modal.Footer>
+    // <Modal.Footer>
+    //   <IconInfo className={importClass.elem("info-icon")} width="20" height="20" />
+    //   See the&nbsp;documentation to <a target="_blank" href="/guide/predictions.html">import preannotated data</a>{" "}
+    //   or&nbsp;to <a target="_blank" href="/guide/storage.html">sync data from a&nbsp;database or&nbsp;cloud storage</a>.
+    // </Modal.Footer>
   );
 };
 
