@@ -212,13 +212,13 @@ export const Menubar = ({
                 />
                 <Menu.Item
                   label="Docs"
-                  href="https://labelstud.io/guide"
+                  href="/guide"
                   icon={<IconBook/>}
                   target="_blank"
                 />
                 <Menu.Item
                   label="GitHub"
-                  href="https://github.com/heartexlabs/label-studio"
+                  href="/label-studio"
                   icon={<LsGitHub/>}
                   target="_blank"
                 /> */}

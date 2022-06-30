@@ -319,7 +319,7 @@ const Configurator = ({ columns, config, project, template, setTemplate, onBrows
     <p className={configClass.elem('tags-link')}>
       Configure the labeling interface with tags.
       <br/>
-      <a href="https://labelstud.io/tags/" target="_blank">See all available tags</a>
+      <a href="/tags/" target="_blank">See all available tags</a>
       .
     </p>
   );

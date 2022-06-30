@@ -130,7 +130,7 @@ export const MachineLearningSettings = () => {
         Add one or more machine learning models to predict labels for your data.
         To import predictions without connecting a model,
         {" "}
-        <a href="https://labelstud.io/guide/predictions.html" target="_blank">
+        <a href="/guide/predictions.html" target="_blank">
           see the documentation
         </a>.
       </Description>
