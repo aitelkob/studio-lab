@@ -162,7 +162,7 @@ export const DataManagerPage = ({ ...props }) => {
         alignItems: 'center',
         justifyContent: 'center',
       }}>
-        <Spinner size={64}/>
+        <Spinner size={100}/>
       </div>
     );
   }
