@@ -56,14 +56,14 @@ export const VersionNotifier = ({showNewVersion, showCurrentVersion}) => {
         <Elem name="icon">
           <IconBell/>
         </Elem>
-        <Elem name="content">
+        {/* <Elem name="content">
           <Elem name="title" data-date={updateTime}>
             {latestVersion} Available
           </Elem>
           <Elem name="description">
             Current version: {version}
           </Elem>
-        </Elem>
+        </Elem> */}
       </a>
     </Block>
   ) : (version && showCurrentVersion) ? (
