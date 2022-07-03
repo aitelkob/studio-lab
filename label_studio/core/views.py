@@ -173,7 +173,7 @@ def localfiles_data(request):
     if settings.LOCAL_FILES_SERVING_ENABLED is False:
         return HttpResponseForbidden("Serving local files can be dangerous, so it's disabled by default. "
                                      'You can enable it with LOCAL_FILES_SERVING_ENABLED environment variable, '
-                                     'please check docs: https://labelstud.io/guide/storage.html#Local-storage')
+                                     'please check docs: ')
 
     local_serving_document_root = settings.LOCAL_FILES_DOCUMENT_ROOT
     if path and request.user.is_authenticated:
