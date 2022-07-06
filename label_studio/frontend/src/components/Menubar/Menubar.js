@@ -223,12 +223,6 @@ export const Menubar = ({
                   target="_blank"
                 /> */}
                 <Menu.Item
-                  label="Docs"
-                  href="/guide"
-                  icon={<IconBook/>}
-                  target="_blank"
-                />
-                <Menu.Item
                   label="Slack Community"
                   href="https://sygmai.slack.com/?source=product-menu"
                   icon={<LsSlack/>}
