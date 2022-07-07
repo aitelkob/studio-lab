@@ -92,7 +92,7 @@ export const Preview = ({ config, data, error, loading }) => {
       store.initializeStore(currentTask);
 
       const c = store.annotationStore.addAnnotation({
-        userGenerate: true,
+        userGenerate: false,
       });
 
       store.annotationStore.selectAnnotation(c.id);
